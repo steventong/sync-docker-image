@@ -14,11 +14,11 @@ on:
       source_repo:
         description: '仓库及标签 (格式 repo:tag)'
         required: true
-        default: ''
+        default: 'namespace/repo:tag'
       destination_repo:
         description: '目标仓库及标签 (格式 repo:tag)'
         required: true
-        default: ''
+        default: 'steventong/repo:tag'
 
 jobs:
   copy:
